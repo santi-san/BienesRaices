@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head-all">
+        <div class="container-nav">
+            <!--logo-->
+            <a href="#"><img src="img/logo.svg" alt="logo.de.BienesRaices"></a>
+            <!--nav-->
+            <nav class="main-nav">
+                <ul>
+                    <li><a target="_self" href="nosotros.html"><i class="fa fa-users icon-us icon-margin" aria-hidden="true"></i> Nosotros</a></li>
+                    <li><a target="_self" href="anuncios.html"><i class="fa fa-bullhorn icon-margin" aria-hidden="true"></i> Anuncios</a></li>
+                    <li><a target="_self" href="index.html#blog"><i class="fa fa-rss icon-margin" aria-hidden="true"></i> Blog</a></li>
+                    <li><a target="_self" href="contacto.html"><i class="fa fa-envelope-o icon-margin" aria-hidden="true"></i> Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+            <!--Contacto-->
+            <h1>Contacto</h1>
+            <!--Imagen-->
+            <div class="img-hero">
+            </div>
+            <section >
+                <h1>Llena el Formulario de Contacto</h1>
+                <div class="centrar-contacto">
+                    <form>
+                        <fieldset>
+                            <legend>Informacion Personal</legend>
+                            <label>DNI: </label>
+                            <input type="text" placeholder="Tu Nombre">
+                    
+                            <label>E-mail: </label>
+                            <input type="email" placeholder="Tu Nombre">
+                            
+                            <label>Telefono: </label>
+                            <input type="tel" placeholder="Tu Nombre">
+
+                            <label>Mensaje: </label>
+                            <textarea></textarea>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Informacion sobre Propiedad</legend>
+                            <label>Vende o Compra: </label>
+                            <select>
+                                <option>Vende</option>
+                                <option>Compra</option>
+                                <option selected disabled>--Seleccione--</option>   <!--este elemento esta...-->
+                            </select>
+                        
+                            <label>Presupuesto: </label>
+                            <input type="text">
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Contacto:</legend>
+                            <p>Como desea ser contactado:</p>
+                            <label>Telefono</label>
+                            <input type="radio" name="contacto">
+                            <label>Correo</label>
+                            <input type="radio" name="contacto">
+                            
+                            <label>Si elegio Telefono, elija la Fecha y Hora</label>
+                                        
+                            <label>Fecha:</label>
+                            <input type="date">
+                            
+                            <label>Hora:</label>
+                            <input type="time">
+                            <input type="submit" value="ENVIAR">
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+            
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><strong><a target="_self" href="nosotros.html">Nosotros</a></strong></li>
+                <li><strong><a target="_self" href="anuncios.html">Anuncios</a></strong></li>
+                <li><strong><a target="_self" href="index.html#blog">Blog</a></strong></li>
+                <li><strong><a target="_self" href="contacto.html">Contacto</a></strong></li>
+            </ul>
+            <span>Todos los derechos reservados &copy</span>
+        </nav>
+    </footer>
+</body>
+</html>
